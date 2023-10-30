@@ -4,8 +4,8 @@
     .paths = .{"."},
     .dependencies = .{
         .@"facil.io" = .{
-            .url = "https://github.com/CoalNova/facil.io/archive/refs/heads/0.7.5-zapped.tar.gz",
-            .hash = "12200cc667b6ad0f5f48050ca5f8baac3c87a13131d93c7fe876b26c51c405493f44",
+            .url = "https://github.com/CoalNova/facil.io/archive/refs/heads/0.7.6-zapdate.tar.gz",
+            .hash = "1220ad0cefb1ccec65cfdd1abaf300da1f1f9773b681ceead96387dda89915ece627",
         },
     },
 }

@@ -167,6 +167,12 @@ pub extern fn fiobj_data_pread(io: FIOBJ, start_at: isize, length: usize) fio_st
 pub extern fn fiobj_data_write(io: FIOBJ, buffer: ?*anyopaque, length: usize) isize;
 pub extern fn fiobj_data_puts(io: FIOBJ, buffer: ?*anyopaque, length: usize) isize;
 pub extern fn fiobj_data_assert_dynamic(io: FIOBJ) void;
+pub extern fn fio_tls_new(
+    server_name: ?[*:0]const u8,
+    public_certificate_file: ?[*:0]const u8,
+    private_key_file: ?[*:0]const u8,
+    private_key_password: ?[*:0]const u8,
+) ?*anyopaque;
 
 pub extern fn fiobj_free_wrapped(o: FIOBJ) callconv(.C) void;
 pub fn fiobj_null() callconv(.C) FIOBJ {
