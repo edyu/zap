@@ -5,7 +5,7 @@
     .dependencies = .{
         .@"facil.io" = .{
             .url = "https://github.com/CoalNova/facil.io/archive/refs/heads/0.7.6-zapdate.tar.gz",
-            .hash = "122070a2b94ad8399b2aea273d25de6ac15e9b1dc6b4b7ecc809108d8b48085fe9c4",
+            .hash = "1220d4a445c34b9caecfa28b976db81192c2e1854aefe286d60f7cb5c50970caff82",
         },
     },
 }
