@@ -1,11 +1,11 @@
 .{
     .name = "zap",
-    .version = "0.1.14-pre",
+    .version = "0.1.15-pre",
     .paths = .{"."},
     .dependencies = .{
         .@"facil.io" = .{
-            .url = "https://github.com/edyu/facil.io/archive/refs/heads/0.7.5-zapped.tar.gz",
-            .hash = "1220f4fab422904fb855ebfe86e560a4a06e20b6d3426396a372788a049ab18b41c5",
+            .url = "https://github.com/edyu/facil.io/archive/refs/tags/v0.0.13.tar.gz",
+            .hash = "12200cc667b6ad0f5f48050ca5f8baac3c87a13131d93c7fe876b26c51c405493f44",
         },
     },
 }
